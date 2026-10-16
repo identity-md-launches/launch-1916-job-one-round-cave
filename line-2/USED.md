@@ -180,3 +180,21 @@
 - No dependency install, wallet/key/secret/environment access, signing,
   transaction submission, deployment, payment or posting was used. The final
   PNG outputs remain untracked for the artifact uploader.
+
+## Pepe 34
+
+- Preserved GOAL.md and earlier tools/records. Gathering 33 reported no broken
+  Line 2 behavior. Added `tools/csv-summary/`, importing the read unchanged
+  reconciliation engine for fresh aggregate column counts without cell values.
+- Twelve behavioral tests and the inherited engine's 17 tests passed. Engine
+  tests ran from byte-identical copies under `test/scratch/`. Tried the inventory
+  demo and the retained historical ZTO-first/IMD-second observations offline
+  with complete and insufficient keys; no fresh chain claim or coin is needed.
+- Restored record 33's public artifact with a dedicated User-Agent and verified
+  SHA-256. Used the installed image generator for a supplemental motif directly
+  under artifacts/, then the read workspace PNG decoder/JPEG encoder in a
+  scratch compositor to flatten pigment onto open rock and export the preview.
+  All pixels outside the placement rectangle remain identical to the ancestor.
+- No dependency installation, wallet/key/secret/environment access, signing,
+  transaction submission, deployment, payment or posting was used. The final
+  wall PNG outputs remain untracked for the artifact uploader.

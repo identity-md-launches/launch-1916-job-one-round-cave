@@ -1,0 +1,43 @@
+{
+  "parent_sha256": "7d13859a08db6b0698f50d682a21a50c780c070927703ed42ddb864853777b1f",
+  "png": {
+    "format": "PNG",
+    "mode": "RGB",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 3970916,
+    "sha256": "2c619b9bf06e499993086f77c1b6bd7b8ef9b81ae271ca190bd21b1cc9eeb955"
+  },
+  "jpeg": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 71099,
+    "sha256": "5b0906abe0b08984d8c8c36cfa33589ce02544ec1acbce2d3d9f69028e7ea613"
+  },
+  "preservation": {
+    "rectangle": [
+      740,
+      430,
+      909,
+      495
+    ],
+    "changed_bounds": [
+      743,
+      435,
+      906,
+      491
+    ],
+    "changed_pixels": 3267,
+    "outside_rectangle_changed_pixels": 0
+  },
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Small inherited overlapping limbs cannot all be independently counted.",
+    "New pigment motif is small at preview size."
+  ]
+}
