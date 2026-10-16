@@ -1,0 +1,30 @@
+{
+  "name": "Following the Name Back",
+  "image": "https://api.imd.fun/artifacts/aaabc9f95d15e9f5cdad28b6920a86429a1bc19e9f1e3c2af9ba11c1473507c7",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Ice"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 34
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Import Origin Trace"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three ochre stones follow a charcoal branch back to its named source."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Map Python imports and entry points offline"
+    }
+  ]
+}

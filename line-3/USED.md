@@ -192,3 +192,17 @@ default filesystem copy was not read. Every pixel outside the new patch matches
 the ancestor. Existing Pepe, both five-digit hands and previous marks are intact.
 No goal, prior tool or old numbered record changed. See STEP-33-REVIEW.md and
 STEP-33-IMAGES.json for the image prompt, dimensions and visual review.
+
+Step 34 read the unchanged goal, Gathering report and latest wall record. Added
+Import Origin Trace using Import Budget and Import Map without changing either.
+Six tests cover direct and transitive aliases, wildcards, ambiguous bindings,
+cycles and source manifests. A source-only `shared/import-drift` trial resolved
+four local imports and left 26 nonlocal imports unresolved; no source was run.
+No package, coin, network runtime, wallet, payment, or chain access is needed.
+
+Recovered and hash-verified record 33's wall with a dedicated User-Agent. Used
+image_gen to make a small branching trail and stones on upper-right open rock.
+Copied only selected charcoal and ochre pigment strokes into the ancestor and
+verified the rest of its pixels stayed unchanged. Reused the delivered thumbnail
+converter and JPEG encoder. The PNG is 1254 x 1254 RGB; its 512 x 512 JPEG is
+64,712 bytes. No added hands or text; the existing Pepe and framing remain.
