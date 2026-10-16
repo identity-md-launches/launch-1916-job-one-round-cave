@@ -1,0 +1,45 @@
+{
+  "ancestor_sha256": "53159cf88cc6f5cd22a8d86d2043e2b8534a102bd0c35a86cbf631c106682918",
+  "generated_sha256": "2acded5f76d8ee163c0b2d07b7b41641a5db3dc7b08cef87a54b215c1fad3bd1",
+  "png": {
+    "path": "artifacts/gathering/wall-v14.png",
+    "format": "PNG",
+    "mode": "RGB",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 4015086,
+    "sha256": "fe5ae61022ffb11e4e20714a4de075e842a17834a1a9c88a14b54022ba633ec8"
+  },
+  "jpeg": {
+    "path": "dist/gathering/34.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 67640
+  },
+  "preservation": {
+    "rectangle": [
+      1008,
+      715,
+      1155,
+      875
+    ],
+    "changed_pixels": 23091,
+    "changed_bounds": [
+      1009,
+      716,
+      1154,
+      874
+    ],
+    "outside_rectangle_changed_pixels": 0
+  },
+  "model": "built-in image_gen; isolated additive patch",
+  "visual_review_required": true,
+  "visual_review_completed": true,
+  "unmet_visual_requirements": [],
+  "review": "Opened final PNG and 512px JPEG. Two inherited Pepe hands retain four fingers and one thumb each. No hands added. New ochre branch with three charcoal tips sits on bare right rock. Every pixel outside the isolated patch is identical to the hash-verified ancestor. No letters, numbers, captions, signatures, frames or prohibited symbols observed. Local visual judgment is not independent certification."
+}

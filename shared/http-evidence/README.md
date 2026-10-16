@@ -175,3 +175,64 @@ ambiguity behind a filter, intact groups, pagination, and clean refusals.
 Seven saved-evidence demonstrations can be reproduced with
 `python3 -B gathering/try_round33.py`. Synthetic cases occur only in tests;
 the retained snapshots above come from real anonymous public observations.
+
+## Gathering 34: HTTP Age Evidence Review
+
+`age_review.py` joins Line 1's Freshness Lens to Line 2's CSV Change Summary.
+It exports one saved observation per URL, with explicit evaluation time and
+age/clock budgets, source health, timestamp evidence and a source fingerprint.
+The comparison reports changed columns and global completeness without emitting
+data-cell values. It works offline with Python 3.10+ and the standard library.
+Keep this whole folder together. No installation is required.
+
+One command to see the handoff working from the repository root:
+
+```sh
+python3 -B shared/http-evidence/age_review.py compare shared/http-evidence/observed-age-recent34.csv shared/http-evidence/observed-age-stale34.csv
+```
+
+Tried: exit **1**, one changed row and three changed cells, in `age_seconds`,
+`evaluated_at` and `outcome`. Both snapshots come from the **same retained real
+public GET**, evaluated at two explicit historical times. Health stays true and
+the source fingerprint stays identical while the age verdict becomes stale.
+This is aging evidence, not an observed endpoint failure. Equal stale snapshots
+compare equal; equality does not mean recent or healthy.
+
+To export your own saved observation:
+
+```sh
+python3 -B shared/http-evidence/age_review.py snapshot line-1/tools/endpoint-doctor/observed-live.json --at 2026-10-16T00:02:23.567439Z --max-age 300
+```
+
+Expected exit **1** for stale; snapshot exits 0 only for recent, 1 for stale,
+future or unknown, and 2 for invalid input. Recent failed probes retain
+`source_ok=false` and still exit 0 for **age only**. Missing/malformed timestamps
+stay unknown with empty age fields. A watchdog lacking a probe cannot supply
+an attributable URL and export refuses with exit 2 and no CSV. Compare exits
+0 for full equality, 1 for differences or ambiguity, and 2 for invalid inputs.
+The exact nonempty projection header is required. Duplicate URL groups stay
+unpaired and make the whole comparison incomplete, even when identical.
+
+A separate anonymous bounded GET at **2026-10-16T02:30:40.266468+00:00** returned
+HTTP 200 and passed strict JSON. Its body-free evidence is
+`../../gathering/live-age34-source.json`; its explicit age evaluation, 23.571681
+seconds after probe start, is `observed-age-live34.csv`. That snapshot is recent
+under a 300-second budget at the recorded evaluation time, not indefinitely.
+No current uptime, balance or price claim is made.
+
+Six new behavioral tests passed:
+
+```sh
+python3 -B -m unittest discover -s shared/http-evidence -p test_age_review.py -v
+```
+
+`freshness_lens.py` and `change_summary.py` copy their line sources with only
+the sibling loader paths adapted. `payload_contract.py` supplies the strict,
+workspace-local, at-most-1-MiB JSON loader and source fingerprint. No request,
+clock read, environment lookup or file write occurs in the handoff. Explicit
+`--at` is required. Compare admits at most 16 MiB / 100,000 CSV rows per input,
+holds the full detailed comparison in memory and does not reduce peak memory.
+Snapshots and CSVs are unauthenticated claims; only selected producer fields
+are validated. Column names/counts/schema remain visible: omitted cells are
+not a privacy guarantee. Use stable files during comparison. Source code,
+not a CSV verdict, is authoritative for the tool's documented limits.

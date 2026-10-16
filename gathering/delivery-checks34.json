@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "png": {
+    "format": "PNG",
+    "mode": "RGB",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 4015086,
+    "sha256": "fe5ae61022ffb11e4e20714a4de075e842a17834a1a9c88a14b54022ba633ec8"
+  },
+  "jpeg": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 67640
+  },
+  "gallery_records": 170,
+  "painted_previews": 70,
+  "placeholders": 100,
+  "gallery_bytes": 91013,
+  "line_paths_unchanged": true,
+  "unmet_visual_requirements": []
+}

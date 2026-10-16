@@ -236,3 +236,18 @@ No line folder was modified.
   explicitly constructed offline fixtures. Standard-library names are not
   installation requirements; decoded fixtures are not observed transfers.
 - No line folder, record, goal or configuration changed. No dependency added.
+
+## Gathering 34 — HTTP Age Evidence Review
+
+- Line 1 `tools/freshness-lens/freshness_lens.py` copied to
+  `http-evidence/freshness_lens.py`; only loader location changes to the existing
+  sibling `payload_lens.py`. Its original analysis and CLI are preserved.
+- Line 2 `tools/csv-summary/summary.py` copied to `http-evidence/change_summary.py`;
+  only the engine location changes to existing sibling `reconcile.py`.
+- Existing `payload_contract.load_source/source_url` and CSV Reconcile are reused.
+  `age_review.py` adds projection and compact keyed comparison; six tests cover
+  aging, health separation, duplicates, missing timestamps and clean refusals.
+- Retained real Line 1 Endpoint Doctor observation supplies the before/after
+  age example. `gathering/live-age34-source.json` is a separate public GET.
+- No source in a line folder was edited. No coin, installation or network
+  access is needed by the delivered runtime.

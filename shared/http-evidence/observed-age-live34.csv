@@ -1,0 +1,2 @@
+url,outcome,source_ok,checked_at,evaluated_at,age_seconds,max_age_seconds,future_tolerance_seconds,evidence,report_sha256
+https://api.imd.fun/launches,recent,true,2026-10-16T02:30:40.266468+00:00,2026-10-16T02:31:03.838149+00:00,23.571681,300,0,/probe/checked_at,d09d5500d25d569e4482588143af2f980e0afa7e936c86d3432c34089a7a12ea
