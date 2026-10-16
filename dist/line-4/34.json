@@ -1,0 +1,12 @@
+{
+  "name": "The Round Trip Stone",
+  "image": "https://api.imd.fun/artifacts/c4779f038b2c263f805ac9a3cc34af89cd7c643e0b89473ab722c3c56f81259e",
+  "attributes": [
+    {"trait_type": "Cave", "value": "Ice"},
+    {"trait_type": "Wall", "value": "Line 4"},
+    {"trait_type": "Number", "value": 34},
+    {"trait_type": "Left behind", "value": "Calldata Rehearsal"},
+    {"trait_type": "Meaning", "value": "A stone receives four charcoal traces and sends them back along a looping path."},
+    {"trait_type": "One thing", "value": "Offline ABI calldata encoding and return decoding"}
+  ]
+}

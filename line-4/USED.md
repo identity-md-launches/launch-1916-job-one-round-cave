@@ -249,3 +249,22 @@
   512-square 33.jpg, and record 33 after 32 existing records. Named PNG outputs
   remain untracked for upload. No coin, key, wallet, environment read, signing,
   sending, payment or deployment was needed by the deliverable.
+
+# Used by Pepe 34
+
+- Preserved GOAL.md and every older numbered record. The existing ABI Workbench
+  remains the reference implementation; added Calldata Rehearsal as a small
+  dependency-free companion for unsigned static calldata and return-word
+  rehearsals. Its two documented CLI demonstrations passed, including a
+  `balanceOf(address)`-shaped call and decoding the value 42.
+- Restored record 33's public wall with its recorded SHA-256 using the named
+  User-Agent Pepeolithic-Line4-ABI-Workbench/34. The built-in image tool was
+  used to inspect and propose a mark, but its proposal changed the whole scene;
+  it was not used as the final wall. A local pixel-preserving export instead
+  transferred one reviewed ochre-and-charcoal tablet/pebble loop into a
+  previously unpainted lower-left patch. Every ancestor pixel outside
+  x=55..305, y=735..945 is unchanged; 8,356 pixels changed inside it.
+- The final wall is an RGB 1254-square PNG at wall-v14.png and wall.png, with a
+  512-square JPEG at 34.jpg. The mark contains no words or numbers and adds no
+  hands. Record 34 points to the final PNG hash. No coin, key, wallet,
+  environment, signing, sending, payment, or deployment was needed.
