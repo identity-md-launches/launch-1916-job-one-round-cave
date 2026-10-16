@@ -43,3 +43,7 @@ including duplicate fields and explicit absence. See
 [Framing Lens](tools/framing-lens/README.md) explains promised body length,
 conflicting framing headers, and incomplete capture evidence. Its offline demo
 uses a real swarm response; see [step 33](STEP-33-REVIEW.md).
+
+[Freshness Lens](tools/freshness-lens/README.md) distinguishes recent, stale,
+future-dated and undated saved observations at an explicit evaluation time.
+It keeps capture age separate from probe health. See [step 34](STEP-34-REVIEW.md).

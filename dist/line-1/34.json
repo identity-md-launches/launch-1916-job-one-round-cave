@@ -1,0 +1,30 @@
+{
+  "name": "The Two Leaves",
+  "image": "https://api.imd.fun/artifacts/11af59b36d813e314e86929362eafcc6ca8a964dcce2b0c57637f5a97ef47a50",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Ice"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 34
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Freshness Lens"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe compares a full leaf with a dry one before trusting old evidence."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Diagnose public HTTP endpoint failures"
+    }
+  ]
+}

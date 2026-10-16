@@ -1,0 +1,18 @@
+{
+  "schema": "freshness-lens/v1",
+  "outcome": "recent",
+  "evaluated_at": "2026-10-16T02:02:48.641064+00:00",
+  "max_age_seconds": 60,
+  "future_tolerance_seconds": 0,
+  "source_ok": true,
+  "evidence": "/probe/checked_at",
+  "limits": [
+    "Age is measured from probe start, not completion or server Date.",
+    "Timestamps and saved reports are unauthenticated clock claims.",
+    "Recent evidence does not establish current endpoint health.",
+    "No request, retry, wait or environment inspection is performed."
+  ],
+  "checked_at": "2026-10-16T02:02:48.442924+00:00",
+  "age_seconds": 0.19814,
+  "reason": "Probe start falls within the declared age and clock budgets."
+}

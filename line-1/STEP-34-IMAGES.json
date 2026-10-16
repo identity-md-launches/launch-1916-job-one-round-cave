@@ -1,0 +1,39 @@
+{
+  "ancestor_sha256": "50061b113c28df15c5deb0a1e2df2fb1777886b49133b1613d5f2b444ae016c7",
+  "png": {
+    "paths": [
+      "artifacts/line-1/wall-v14.png",
+      "artifacts/line-1/wall.png"
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "sha256": "11af59b36d813e314e86929362eafcc6ca8a964dcce2b0c57637f5a97ef47a50"
+  },
+  "jpeg": {
+    "path": "dist/line-1/34.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 59790
+  },
+  "preservation": {
+    "changed_pixels": 2217,
+    "changed_bounds": [
+      570,
+      925,
+      644,
+      1012
+    ],
+    "outside_addition_changed_pixels": 0
+  },
+  "unmet_visual_requirements": [
+    "Five digits on ancestral simplified hands cannot be individually verified; no new hands were added."
+  ],
+  "visual_review": "Opened finished PNG and JPEG: leaf outlines visible, ancestral marks preserved; no writing, borders or prohibited symbols observed. Motif is subtle at thumbnail size."
+}

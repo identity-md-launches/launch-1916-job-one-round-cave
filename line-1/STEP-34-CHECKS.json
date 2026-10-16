@@ -1,0 +1,26 @@
+{
+  "tests": {
+    "count": 18,
+    "passed": true
+  },
+  "stale_demo": {
+    "exit": 1,
+    "expected": true
+  },
+  "recent_demo": {
+    "exit": 0,
+    "expected": true
+  },
+  "invalid_time": {
+    "exit": 2,
+    "expected": true
+  },
+  "delivery": {
+    "next_record": 34,
+    "goal_unchanged": true,
+    "older_records_unchanged": true,
+    "png_and_jpeg_valid": true,
+    "wall_hash_matches_record": true
+  },
+  "scope": "Only authorized paths changed; new non-artifact files under 100 KB."
+}
